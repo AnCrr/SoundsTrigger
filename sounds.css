@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/2020.12.03-1606986533.3217_r1.jpg);
+    background-size: 100%;
+}
+
+#father {
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top: 50%;
+}
+
+.letter {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.big {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.small {
+    color: rgb(255, 194, 81);
+    font-size: 11px;
+}
